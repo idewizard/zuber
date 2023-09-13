@@ -12,7 +12,7 @@ public class Motorista {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    //Teste
     private String nome;
     private String veiculo;
     private String cnh;
