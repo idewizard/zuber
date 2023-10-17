@@ -33,7 +33,7 @@ public class PassageiroController {
     }
 
     @DeleteMapping
-    public void apagarMotorista(@RequestParam long id) {
+    public void apagarPassageiro(@RequestParam long id) {
         passageiroService.apagar(id);
     }
 }
